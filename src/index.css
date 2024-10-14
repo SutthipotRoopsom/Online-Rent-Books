@@ -1,0 +1,40 @@
+/* src/App.css or src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kanit-medium {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Add button styles */
+button {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  padding: 10px 15px; /* Add padding for better button size */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #f0f0f0; /* Change background on hover */
+}
+
+
+/* Add the Kanit font to the dropdown */
+.category-filter select {
+    font-family: "Kanit", sans-serif; /* Use Kanit font */
+    font-weight: 500; /* Adjust font weight if needed */
+    font-size: 16px; /* Set font size for better visibility */
+    padding: 8px; /* Add some padding for better usability */
+}

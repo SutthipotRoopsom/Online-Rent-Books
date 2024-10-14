@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kanit-medium {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header {
+  background: linear-gradient(90deg, #007bff, #6c757d); /* Gradient background */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+  color: #ffc107; /* Hover color */
+}
+
+
+
+.book-card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align books */
+}
+
+.recommended-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align recommended books */
+}
+
+/* src/styles/App.css */
+
+/* Example CSS for category filter */
+.category-filter {
+  position: absolute; /* Ensure it stays in position */
+  top: 20px; /* Adjust this value for vertical spacing */
+  right: 20px; /* Keep it to the right */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.category-filter select {
+  padding: 5px; /* Add some padding to the dropdown */
+  border: 1px solid #ccc; /* Add a border for styling */
+  border-radius: 4px; /* Round the corners */
+}
+
+
+
+select {
+  padding: 0.5rem; /* Padding for the dropdown */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border for the dropdown */
+  background-color: #ffffff; /* White background */
+  font-size: 1rem; /* Font size */
+}
+
+select:focus {
+  outline: none; /* Remove outline */
+  border-color: #007bff; /* Border color on focus */
+}
+
+h2, h3 {
+  text-align: center; /* Center align headings */
+  color: #343a40; /* Dark color for text */
+}
+
+
+
+.recommended-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align the book cards */
+}
+
+/* src/styles/App.css */
+
+/* src/styles/App.css */
+
+.book-card {
+  width: 200px; /* กำหนดความกว้าง */
+  height: 350px; /* กำหนดความสูงให้เท่ากันทุกการ์ด */
+  border: 1px solid #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.book-card p {
+  text-align: left;
+  font-size: 0.9rem;
+  flex-grow: 1; /* ทำให้คำอธิบายขยายตัวให้พอดีกับเฟรม */
+}
+
+.book-card button {
+  margin-top: auto;
+}

@@ -1,0 +1,82 @@
+/* src/styles/UserProfile.css */
+.user-profile-container {
+    max-width: 700px; /* Increased width */
+    margin: 30px auto; /* Center the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background */
+    /* Font family */
+}
+
+.user-profile-header {
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2c3e50; /* Darker color */
+    border-bottom: 2px solid #3498db; /* Bottom border */
+    padding-bottom: 10px;
+}
+
+.ordered-books-header {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #34495e; /* Slightly lighter color */
+    text-align: center;
+}
+
+.no-books-message {
+    text-align: center;
+    color: #e74c3c; /* Red color for no books */
+    font-style: italic;
+    font-size: 18px;
+}
+
+.ordered-books-list {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+}
+
+.ordered-book-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ecf0f1; /* Light border for each item */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f7f9fc; /* Light background for items */
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.ordered-book-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.book-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #2980b9; /* Blue color for the title */
+}
+
+.book-details {
+    margin-top: 8px; /* Spacing above details */
+    color: #7f8c8d; /* Gray color for details */
+    font-size: 14px; /* Smaller font size */
+}
+
+.order-date, .expiration-date, .quantity {
+    display: inline-block; /* Align items in a row */
+    margin-left: 15px; /* Spacing between items */
+}
+
+/* src/App.css or src/index.css */
+
+
+/* src/styles/UserProfile.css or your relevant CSS file */
+
+/* Change font style for the placeholder text in the search bar */
+input::placeholder {
+    font-family: "Kanit", sans-serif; /* Use Kanit font */
+    font-weight: 500; /* Adjust font weight if needed */
+    color: #999; /* Change the placeholder color if needed */
+}
+
